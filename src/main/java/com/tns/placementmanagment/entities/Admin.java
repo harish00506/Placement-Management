@@ -9,6 +9,9 @@ public class Admin {
     private Long id;
     private String name;
     private String password;
+    
+    public Admin() {
+    }
 
     public Admin(Long id, String name, String password) {
         this.id = id;
